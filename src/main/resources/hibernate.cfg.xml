@@ -6,14 +6,15 @@
     <session-factory>
         <property name="connection.url">jdbc:mysql://localhost:3306/online_skill_system</property>
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-        <mapping class="Entity.CourseEntity"/>
+        <mapping class="by.akimova.webproject.Entity.CourseEntity"/>
         <mapping resource="CourseEntity.hbm.xml"/>
-        <mapping class="Entity.SkillsEntity"/>
+        <mapping class="by.akimova.webproject.Entity.SkillsEntity"/>
         <mapping resource="SkillsEntity.hbm.xml"/>
         <mapping resource="StudentEntity.hbm.xml"/>
-        <mapping class="Entity.StudentEntity"/>
-        <mapping class="Entity.TeacherEntity"/>
+        <mapping class="by.akimova.webproject.Entity.StudentEntity"/>
+        <mapping class="by.akimova.webproject.Entity.TeacherEntity"/>
         <mapping resource="TeacherEntity.hbm.xml"/>
+
         <!-- <property name="connection.username"/> -->
         <!-- <property name="connection.password"/> -->
 

@@ -1,4 +1,4 @@
-package Entity;
+package by.akimova.webproject.Entity;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
